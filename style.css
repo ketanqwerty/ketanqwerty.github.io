@@ -1,0 +1,513 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Pacifico'; /*a name to be used later*/
+    src: url('Pacifico.ttf'); /*URL to font*/
+}
+
+
+.div-first-page{
+
+
+
+
+    
+}
+
+.div-profile-pic{
+    padding-bottom: 50px;
+    text-align: center; 
+}
+.div-profile-pic img{
+    border: 10px solid #37465d85;
+}
+
+.div-row1{
+    margin-right:0px; 
+    padding-top: 80px;
+}
+.div-name{
+
+    margin: 30px 30px 0px 30px;
+    text-align: center;
+    padding: 0px;
+    border: 3px solid white;
+}
+
+
+.div-name h2{
+    color: white;
+    margin: 3px;
+}
+.div-intro{
+    cursor: default;
+    text-align: center;
+    background-color: #0202026e;
+    margin-bottom: 90px;
+    border: 3px dotted lightgray;
+}
+
+.div-intro h2{
+    margin-top: 0px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    color: snow;
+    font-family: Cambria;
+
+    font-size: 2em;
+    line-height: 1.3;
+}
+.div-intro p{
+    font-size: 16px;
+    color: white;
+    font-family: Pacifico;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.div-social{
+    text-align:right;
+    float: right;
+}
+
+.div-head-title{
+    
+        margin-top: 40px;
+        
+}
+
+.div-head-title h2{
+    
+   color: black;
+   letter-spacing: 3.8px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 3em;
+}
+.div-head-title p{
+    color: orange;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 3.8px;
+    
+}
+
+
+
+
+.div-info{
+    margin-top: 10px;
+    padding: 10px 0 10px 15px;
+
+    /*border-bottom: 4px solid #b9b3b3; 
+    border-top: 4px solid #b9b3b3; */
+    margin-bottom: 10px;
+}
+.div-info p{
+    font-family: monospace;
+    color: black;
+    margin-bottom: 0px;
+    display: inline;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    
+}
+.div-info span{
+    text-decoration: underline ;
+    letter-spacing: 1.5px;
+    font-family: cursive;
+    color: grey;
+}
+
+.div-dp{
+    
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.div-dp img{
+    border-radius: 10px;
+}
+
+.wrap{
+    border: 1px solid black;
+}
+
+.div-second-page{
+    padding-bottom: 90px;
+}
+.h2-internship{
+    background-color:  whitesmoke;
+}
+.h2-internship {
+
+    margin-top: 0px;
+   color: black;
+   letter-spacing: 3.8px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 2em;
+
+}
+.div-internship span{
+    font-size: 2em;
+}
+.div-internship p{
+    
+        display: inline;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+    padding-left:5px; 
+}
+
+.div-intern-info{
+    
+    padding-left: 37px;
+}
+
+.div-intern-info span{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+    line-height: 3;
+    font-size: 13px;
+}
+.div-intern-info li{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.h2-skills{
+    margin-top: 0px;
+   color: black;
+   letter-spacing: 3.8px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.div-internship{
+    /*background-color: #80808026; */
+    padding-top:5px;
+}
+
+.div-skills li{
+    line-height: 1.8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+.progress{
+    height: 14px;
+    margin-bottom: 10px;
+
+    background-color: #d8d7d7;
+}
+.progress-bar{
+    background-color: cadetblue;
+}
+.div-intern{
+    background-color: #80808026;
+
+    margin: 4px;
+    
+}
+
+.my-value{
+    line-height: 15px;
+    margin-bottom: 0px;
+}
+.symbol{
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.div-name h2:hover{
+    color: goldenrod; 
+}
+
+.s-icons{
+    margin-top: 20px;
+}
+
+.div-buttons a:hover{
+    background-color: #1b65a5;
+    color: white;
+}
+
+.div-details {
+    margin-top: 30px;
+}
+
+
+.div-details p{
+color: #5a4f4f;
+ font-family:Arvo;
+  /*  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;*/
+ letter-spacing: 1.4px;
+ text-align:center;
+ margin: 40px auto;
+/* text-transform: lowercase;*/
+ line-height: 145%;
+ font-size: 13pt;
+ /*font-variant: small-caps;*/
+}    
+
+.div-details p::first-letter{
+    text-transform: uppercase;
+}
+.div-details span{
+    color: #ad2e2e;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+.div-buttons{
+    text-align: center;
+}
+.div-buttons a{
+        padding: 10px 15px 10px 15px;
+    border: 1px solid;
+    text-decoration: none;
+}
+
+.div-third-page{
+
+/* background-color:  #4ECDC4;  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.div-project-details{
+    margin-top: 15px;
+    background-color: #000000a3;
+    padding-top:10px;
+    padding-left: 30px; 
+}
+
+.div-project-details h2{
+    color: wheat;
+    margin-bottom: 0px;
+    font-family:initial;
+}
+.div-project-details span{
+    color: gray;
+}
+
+.div-project-details p{
+    color: aliceblue;
+    
+    font-size: 16px;
+    text-align: justify;
+    font-family:Arvo;
+    padding: 15px 5px 5px 5px;
+}
+
+.div-project-img{
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#div-prjct-detail2{
+
+    padding-left: 20px;
+    float:right;
+    margin-right: 100px;
+    
+}
+
+#div-prjct-img2{
+    padding-top:20px; 
+    margin-top: 30px;
+}
+
+
+.div-project-head{
+    
+        margin-top: 40px;
+        
+}
+
+.div-project-head h2{
+    
+   font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   letter-spacing: 3.8px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 3em;
+}
+.div-project-head p{
+    color: orange;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 3.8px;
+    
+}
+
+
+/* Snow effect on project page*/
+
+
+.snow{
+   background-image:
+           url(https://image.ibb.co/k0aqx6/snow.png) , 
+           url(https://image.ibb.co/eCahc6/snow1.png) , 
+           url(https://image.ibb.co/bOboH6/snow2.png);
+   width: 100%;
+   height:100%;
+   position: absoulute ;
+   top: 0;
+   left: 0;
+   z-index:1;
+   animation: snow 20s linear infinite;
+}
+@keyframes snow {
+    from {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    to {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+/*-----------------------------------------------------------------------------------------------*/
+
+/*sweep to right */
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: gold;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*--------------------------------------------------------------------*/
+
+         /* Radial Out */
+
+.hvr-radial-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+  color: white;
+}
+.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*  Media Queries */
+
+@media only screen and (max-width: 500px) {
+    .div-info{
+
+         margin-left:72px; 
+         border: 1px solid gray;
+    }
+
+    .div-buttons{
+        margin-top: 20px;
+    }
+
+    .div-profile-pic{
+        padding-left: 0px;
+    }
+
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
